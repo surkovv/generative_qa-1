@@ -1,6 +1,6 @@
 # Knowledge Graph-to-text generation
 
-The component is primarily implemented with [KGPT](https://arxiv.org/pdf/2010.02307.pdf).
+The component is primarily implemented with [JointGT](https://aclanthology.org/2021.findings-acl.223/).
 
 Examples:
 

@@ -1,7 +1,7 @@
 # QA model with augmented answers (russian)
 
 The model is fune-tuned [ruT5-base](https://huggingface.co/sberbank-ai/ruT5-base) on [SberQuad](https://arxiv.org/abs/1912.09723) with generated long answers. 
-First, I implemented an algorithm that yields a long answer using the short answer and the question (`preprocessing.py`). Then excluded very short answers from dataset
+First, I implemented an algorithm that yields a long answer using the short answer and the question (`preprocessing.py`). Then I excluded very short answers from dataset
 and finetuned ruT5-base on it.
 
 ### Metrics
